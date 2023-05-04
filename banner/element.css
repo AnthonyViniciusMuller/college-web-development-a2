@@ -1,0 +1,31 @@
+app-banner {
+    height: 100%;
+    display: flex;
+    position: relative;
+    color: rgba(255, 255, 255, 1);
+}
+
+app-banner img {
+    width: 100%;
+}
+
+app-banner div{
+    position: absolute;
+    padding: 40px;
+    font-size: 50px;
+}
+
+app-banner div p {
+    display: flex;
+    align-items: end;
+}
+
+.double-arrow:before{
+    content: "";
+    display: inline-block;
+    background: url('./resources/images/double-arrow.svg') no-repeat;
+    width: 50px;background-size: contain;
+    height: 50px;
+    margin-right: 20px;
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(137deg) brightness(100%) contrast(1000%)
+}

@@ -1,0 +1,20 @@
+footer {
+    background-color: #5D5650;
+    color: white;
+}
+
+.about {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.lorem {
+    max-width: 500px;
+}
+
+.developed {
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid rgba(133, 133, 133, 0.2);
+}

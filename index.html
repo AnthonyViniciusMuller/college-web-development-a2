@@ -5,32 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="./header/element.js"></script>
+    <script src="./footer/element.js"></script>
+    <script src="./banner/element.js"></script>
+
     <title>Inicio</title>
 </head>
 <body>
-    <header>
-        <div class="super-header">
-            <div class="super-contact">
-               <p><img src="resources/images/fone.png">Telefone: (47) 3211-7000</p>
-                <p><img src="resources/images/email.png">dw@unifebe.edu.br</p>
-            </div>
-            <div class="super-social">
-                <img src="resources/images/facebook.png">
-                <img src="resources/images/instagram.png">
-                <img src="resources/images/yt.png">
-            </div>
-        </div>
-        <div class="under-header">
-            <nav>
-                <h1 id="home"><a href="">HOME</a></h1>
-                <h1><a href="">EMPRESA</a></h1>
-                <h1><a href="">SERVIÇOS</a></h1>
-                <h1><a href="">CATÁLOGO</a></h1>
-                <h1><a href="#">CONTATO</a></h1>
-                <a href=""><h1 id="button-shop">LOJA</h1></a>
-            </nav>
-        </div>
-    </header>
+    <app-header></app-header>
+    <app-banner img="./resources/images/woman-smiling.png" links='SERVIÇOS, TRANSPORTE'></app-banner>
+
+
     <main>
         <session id="banner-main">
             <div class="banner-content">
@@ -40,5 +25,7 @@
             </div>
         </session>
     </main>
+
+    <app-footer></app-footer>
 </body>
 </html>
