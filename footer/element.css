@@ -1,20 +1,39 @@
 footer {
     background-color: #5D5650;
     color: white;
-}
-
-.about {
     display: flex;
     padding: 50px;
+    padding-bottom: 0;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .lorem {
-    max-width: 500px;
+    max-width: 400px;
 }
 
 .developed {
     text-align: center;
     padding: 15px;
     border-top: 1px solid rgba(133, 133, 133, 0.2);
+    flex-basis: 100%;
 }
+
+.contact {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.move-img {
+    transform: translateY(7px);
+}
+
+.contact img {
+    margin-right: 10px;
+}
+
+.email {
+    flex-direction: column;
+}
+
