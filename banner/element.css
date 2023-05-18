@@ -29,3 +29,7 @@ app-banner div p {
     margin-right: 20px;
     filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(137deg) brightness(100%) contrast(1000%)
 }
+
+.home {
+    margin-left: 70px;
+}

@@ -6,8 +6,12 @@
     padding: 10px;
     align-items: center;
     justify-content: space-between;
-
 }
+
+.under-header a {
+    color: #858585
+}
+
 .under-header {
     height: 90px;
     display: flex;
