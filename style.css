@@ -113,7 +113,7 @@ nav h1 {
     max-width: 600px;
 }
 
-.our-company button {
+.default-btn {
     background: rgba(178, 183, 74, 1);
     color: white;
     border: none;
@@ -123,3 +123,98 @@ nav h1 {
     display: block;
 }
 
+
+.our-services-container {
+    margin-top: 400px;
+    position: relative;
+    background-color: #262B2B;
+    padding: 60px;
+}
+
+.our-services-container h1 {
+    font-family: 'BenchNine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 86px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 50px;
+}
+
+.our-services-images-list {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.our-services-image img {
+    height: 200px;
+    object-fit: contain;
+    margin: 60px;
+}
+
+.our-services-images-list p {
+    font-family: 'BenchNine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.our-catalog-container {
+    filter: grayscale(70%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 80vh;
+    background-image: url(./resources/images/guy-smilling.png);
+}
+
+.our-catalog-container h1 {
+    text-align: center;
+    padding: 150px;
+
+    font-family: 'BenchNine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.our-catalog-text {
+    position: relative;
+    text-align: center;
+    width: 600px;
+    height: 50px;
+    left: 35%;
+    top: 30%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.our-catalog-button-container {
+    position: relative;
+    left: 43%;
+    top: 35%;
+    width: 310px;
+    height: 65px;
+}
+
+#our-catalog-more {
+    width: 100%;
+    height: 100%;
+
+    background: #5D5650;
+    border: 1px solid #FFFFFF;
+    border-radius: 0px;
+    color: #FFFFFF;
+}
