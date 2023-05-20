@@ -16,8 +16,32 @@
     <app-header></app-header>
 
     <main>
-        <app-banner img="./resources/images/wheat.png" links='SERVIÇOS, TRANSPORTE'></app-banner>
-        <app-form contact-info-up="true" title="DESEJO SABER MAIS SOBRE"></app-form>
+        <section>
+            <app-banner img="./resources/images/wheat-in-bucket.png" links='SERVIÇOS, TRANSPORTE'></app-banner>
+        </section>
+        
+        <section class="shipping">
+            <h1 class="title">Transporte</h1>
+            <p class="sub-title">Transportamos para todo o Brasil, com segurança e garantindo a qualidade do seu produto.</p>
+            <div>
+                <img src="/resources/images/farm-wheat.jpg" alt="wheat">
+                <img src="/resources/images/farm-truck.jpg" alt="farm truck">
+                <img src="/resources/images/guy-with-tablet.jpg" alt="tablet">
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h1 class="title">GALERIA DE IMAGENS</h1>
+            <div>
+                <img src="/resources/images/farm-wheat.jpg" alt="wheat">
+                <img src="/resources/images/farm-truck.jpg" alt="farm truck">
+                <img src="/resources/images/guy-with-tablet.jpg" alt="tablet">
+            </div>
+        </section>
+        
+        <section>
+            <app-form contact-info-up="true" title="DESEJO SABER MAIS SOBRE"></app-form>
+        </section>
     </main>
 
     <app-footer></app-footer>
