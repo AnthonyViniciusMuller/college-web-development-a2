@@ -3,12 +3,22 @@
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 50px;
+    padding-right: 120px;
+    background: rgba(255, 255, 255, 0.95);
+    padding-bottom: 200px;
+}
+
+.form .title {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 65px;
+    color: rgb(65, 60, 56);
 }
 
 .contacts {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
 }
 
 .contact {
@@ -52,7 +62,20 @@
     color: #B2B74A;
     padding: 25px 120px;
     margin: auto;
-    margin-top: auto;
     display: block;
-    margin-top: 30px;
+    margin-top: 45px;
+    font-size: 18px;
+}
+
+.form-wrapper {
+    background-color: rgba(93, 86, 80, 1);
+    padding: 80px;
+}
+
+.sub-title {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 20px;
 }

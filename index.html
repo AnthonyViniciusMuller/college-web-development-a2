@@ -16,7 +16,6 @@
     <app-header></app-header>
 
     <main>
-        <app-form></app-form>
         <session id="banner-main">
             <div class="banner-content">
                 <h1>CAMPO</h1>
@@ -76,22 +75,27 @@
                     <p>Venda</p>
                 </div>
             </div>
-                <button class="default-btn">SAIBA MAIS.</button>
+            <button class="default-btn">SAIBA MAIS.</button>
         </section>
 
         <session id="our-catalog">
-                <div class="our-catalog-container">
-                    <h1>NOSSO CATÁLOGO</h1>
-                    <div class="our-catalog-text">
-                        <p>Confira o nosso catálogo de produtos e tire suas dúvidas sobre os detalhes técnicos.</p>
-                    </div>
-                    <div class="our-catalog-button-container">
-                        <a href="#">
-                            <button id="our-catalog-more">CONFERIR.</button>
-                        </a>
-                    </div>
+            <div class="our-catalog-container">
+                <h1>NOSSO CATÁLOGO</h1>
+                <div class="our-catalog-text">
+                    <p>Confira o nosso catálogo de produtos e tire suas dúvidas sobre os detalhes técnicos.</p>
                 </div>
-            </session>
+                <div class="our-catalog-button-container">
+                    <a href="#">
+                        <button id="our-catalog-more">CONFERIR.</button>
+                    </a>
+                </div>
+            </div>
+        </session>
+        <section>
+            <div class="form-wrapper">
+                <app-form contact-info-up="true" title="CONTATO"></app-form>
+            </div>
+        </section>
     </main>
 
     <app-footer></app-footer>
