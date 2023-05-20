@@ -3,7 +3,7 @@ class AppBanner extends HTMLElement {
         const cssFile = await fetch('./banner/element.css');
         const style = document.createElement('style');
         style.innerHTML = await cssFile.text()
-        document.head.appendChild(style);
+        document.head.prepend(style);
 
         const htmlFile = await fetch('./banner/element.html');
         this.innerHTML = await htmlFile.text();

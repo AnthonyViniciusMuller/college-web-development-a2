@@ -23,3 +23,46 @@
     padding-top: 2%;
     margin-right: 1%;
 }
+
+nav h1 {
+    display: inline;
+    text-align: center;
+    color: #858585;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 0 25px;
+}
+
+a:visited, a:active {
+    color: inherit;
+}
+
+.super-contact p {
+    display: inline-flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.super-contact img {
+    margin: 1px 6px;
+    height: 15px;
+}
+.super-social img {
+    margin: 5px;
+    height: 20px;
+}
+
+#home {
+    color: #B2B74A;
+}
+#button-shop {
+    color: white;
+    padding: 20px 50px;
+    background: #B2B74A;
+}
+#button-shop:hover {
+    background: #A3A63F;
+}

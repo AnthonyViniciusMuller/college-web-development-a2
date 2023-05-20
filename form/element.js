@@ -3,7 +3,7 @@ class AppForm extends HTMLElement {
         const cssFile = await fetch('./form/element.css');
         const style = document.createElement('style');
         style.innerHTML = await cssFile.text()
-        document.head.appendChild(style);
+        document.head.prepend(style);
 
         const htmlFile = await fetch('./form/element.html');
         this.innerHTML = await htmlFile.text();
@@ -15,7 +15,7 @@ class AppForm extends HTMLElement {
 
         if (contactInfoUp) {
             const section = document.createElement("section");
-            section.appendChild(p);
+            section.prepend(p);
             this.querySelector(".contacts").prepend(section);
         }
 

@@ -3,7 +3,7 @@ class AppFooter extends HTMLElement {
         const cssFile = await fetch('./footer/element.css');
         const style = document.createElement('style');
         style.innerHTML = await cssFile.text()
-        document.head.appendChild(style);
+        document.head.prepend(style);
 
         const htmlFile = await fetch('./footer/element.html');
         this.innerHTML = await htmlFile.text();
