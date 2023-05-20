@@ -10,6 +10,9 @@ footer {
 
 .lorem {
     max-width: 400px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
 }
 
 .developed {
@@ -17,6 +20,13 @@ footer {
     padding: 15px;
     border-top: 1px solid rgba(133, 133, 133, 0.2);
     flex-basis: 100%;
+    margin-top: 40px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .contact {
@@ -36,4 +46,3 @@ footer {
 .email {
     flex-direction: column;
 }
-
