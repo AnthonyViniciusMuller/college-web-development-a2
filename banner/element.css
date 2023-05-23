@@ -20,14 +20,18 @@ app-banner div p {
     align-items: end;
 }
 
-.double-arrow:before{
-    content: "";
+.double-arrow:before {
+    content: ""; 
     display: inline-block;
     background: url('./resources/images/double-arrow.svg') no-repeat;
     width: 50px;background-size: contain;
     height: 50px;
     margin-right: 20px;
     filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(137deg) brightness(100%) contrast(1000%)
+}
+
+.link {
+    text-decoration: none;
 }
 
 .home {

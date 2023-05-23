@@ -15,11 +15,16 @@ class AppBanner extends HTMLElement {
         const links = Array.from(this.getAttribute('links').split(','))
 
         links.forEach((link) => {
+            const ancor = document.createElement("a");
+            ancor.href = "./" + link.split(':')[1];
+            ancor.className = "link";
+
             const p = document.createElement("p");
-            p.innerText = link;
+            p.innerText = link.split(':')[0];
             p.className = "double-arrow";
 
-            this.querySelector("div").appendChild(p);
+            ancor.appendChild(p);
+            this.querySelector("div").appendChild(ancor);
         })
     }
 }

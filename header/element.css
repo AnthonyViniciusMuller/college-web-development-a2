@@ -35,7 +35,11 @@ nav h1 {
     padding: 0 25px;
 }
 
-a:visited, a:active {
+.link:visited {
+    color: inherit;
+}
+
+.link:active {
     color: inherit;
 }
 

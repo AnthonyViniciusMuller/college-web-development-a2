@@ -7,6 +7,12 @@ class AppHeader extends HTMLElement {
 
         const htmlFile = await fetch('./header/element.html');
         this.innerHTML = await htmlFile.text();
+
+        [...this.querySelectorAll("nav a")].map(ancor => {
+            if (ancor.href == window.location.href) {
+                ancor.style.color = "rgba(178, 183, 74, 1)";
+            }
+        })
     }
 }
 
