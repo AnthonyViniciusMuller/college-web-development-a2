@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.our-company-container h1 {
+    text-align: center;
+
+    font-family: 'BenchNine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 86px;
+    color: #413C38
+}
+
+.our-company-text {
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 150px;
+}
+
+.our-company-text p {
+    margin: 50px 100px;
+    width: 345px;
+    margin-right: 500px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    color: #858585;
+}
+
+.images-services-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 300px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images-services-container p {
+    margin: 10px;
+    font-family: 'BenchNine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #413C38;
+}
+
+.our-brands {
+    display: flex;
+    max-width: 1500px;
+    margin: auto;
+}
+.our-brands img {
+    margin: 50px;
+}
+.our-brands p { 
+    margin-top: 50px;
+    width: 50%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify;
+    color: #858585;
+}

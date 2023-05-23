@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="catalog.css">
+    <script src="./header/element.js"></script>
+    <script src="./footer/element.js"></script>
+    <script src="./banner/element.js"></script>
+
+    <title>Catálogo</title>
+</head>
+<body>
+    <app-header></app-header>
+    <main>
+        <app-banner img="./resources/images/wheat-in-bucket.png" links='CATÁLOGO'></app-banner>
+        <div class="form-catalog-container">
+            <h1>CATÁLOGO</h1>
+            <div class="form-login-container">
+                <h3>LOGIN:</h3>
+                <div class="form-login">
+                    <form action="">
+                        <input type="text" placeholder="LOGIN">
+                        <input type="password" placeholder="SENHA">
+                        <button type="submit">ENTRAR</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <app-footer></app-footer>
+</body>
+</html>

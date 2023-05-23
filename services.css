@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.our-services-container h1 {
+    text-align: center;
+    margin: 40px;
+
+    font-family: 'BenchNine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 86px;
+    color: #413C38;
+}
+.images-services-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 150px;
+}
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-img {
+    background-color: #5D5650;
+    width: 220px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 15px;
+}

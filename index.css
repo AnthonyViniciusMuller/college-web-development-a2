@@ -42,7 +42,10 @@
     background: #756C66;
     border: 1px solid #FFFFFF;
 }
-
+.our-brands {
+    max-width: 1500px;
+    margin: auto;
+}
 .our-company {
     display: flex;
     height: 580px;
@@ -63,22 +66,48 @@
 }
 
 .our-company h2 {
-    color: rgba(65, 60, 56, 1);
-    font-size: 60px;
+    font-family: 'BenchNine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 75px;
+    color: #413C38;
+}
+
+.our-brands p { 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify;
+    color: #858585;
 }
 
 .our-company p {
     max-width: 600px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    color: #858585;
 }
 
 .default-btn {
-    background: rgba(178, 183, 74, 1);
     color: white;
     border: none;
     padding: 20px;
     width: 300px;
     margin: 0 auto;
     display: block;
+
+    background: #B2B74A;
+    border: 1px solid #B2B74A;
+    border-radius: 0px;
+    text-align: center;
 }
 
 
@@ -239,4 +268,10 @@
 
 .our-brands img {
     flex-basis: 50%;
+}
+
+.check {
+    background: #5D5650;
+    border: 1px solid #FFFFFF;
+    border-radius: 0px;
 }
